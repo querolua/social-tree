@@ -60,3 +60,24 @@ p{
     margin: 0 14px;
     float: right; 
 }
+
+@media screen and (max-width:767px){
+    #container img{
+        width: 150px;
+    }
+
+    p{
+        font-size: 27px;
+    }
+    .network .i-space{
+        margin: 0 13px 5px;
+        
+    }
+    .button{
+        
+        max-width: 530px;
+        width: 87%;
+        height: 65px;
+        font-weight: 600;
+    }
+}
