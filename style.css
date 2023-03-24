@@ -81,3 +81,29 @@ p{
         font-weight: 600;
     }
 }
+
+@media screen and (max-width:375px){
+    #container img{
+        width: 120px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+    .network .i-space{
+        margin: 0 13px 5px;
+        
+    }
+    .button{
+        
+        max-width: 500px;
+        width: 85%;
+        height: 63px;
+        font-weight: 600;
+    }
+    
+    i{
+        width: 35px;
+        height: 35px;
+    }
+}
